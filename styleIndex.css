@@ -89,14 +89,26 @@ h1{
 .items{
     min-width: 80%;
     margin: 20px;
-    margin-bottom: 0;
-    background-color: #009bcb;
+    margin-bottom: 10px;
     border-radius: 20px;
     overflow: hidden;
     padding: 20px;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.items:nth-child(1){
+    background-color: #6867b9;
+}
+
+
+
+
+
 .items img{
     width: 100%;
+    
 }
 .items  p{
     color: white;

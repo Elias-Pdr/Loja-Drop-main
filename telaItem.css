@@ -4,3 +4,35 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 20px;
+    color: white;
+}
+header svg{
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+.containerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+#imgItem{
+    width: 80%;
+}
+.bollDecoration{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background-color: #0192bf;
+    border-radius: 50%;
+    z-index: -1;
+    top: -299px;
+    right: -220px;
+}
